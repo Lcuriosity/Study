@@ -1,0 +1,11 @@
+name: mike
+age : 20
+password: 3353113843
+header: 11111
+
+spring: 
+  datasource: 
+    jdbc-driver: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: LH
+    password: root
