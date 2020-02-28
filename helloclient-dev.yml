@@ -5,7 +5,7 @@ header: 11111
 
 spring: 
   datasource: 
-    jdbc-url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: LH
     password: root
